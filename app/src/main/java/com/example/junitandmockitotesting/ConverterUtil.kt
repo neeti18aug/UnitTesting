@@ -7,6 +7,6 @@ class ConverterUtil {
     }
 
     fun convertCelsiusToFahrenheit(celsius: Float): Float {
-        return ((celsius * 9 / 5) + 32)
+        return (celsius * 9 / 5 + 32)
     }
 }
