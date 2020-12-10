@@ -8,13 +8,13 @@ class MathUtilsTest : TestCase() {
     private var mathUtils: MathUtils = MathUtils()
 
     @Test
-    private fun testAdd() {
+    fun testAdd() {
         val expected = 10
         mathUtils.add(5, 5).also { assertEquals(expected, it) }
     }
 
     @Test
-    private fun testComputeCircleArea() {
+    fun testComputeCircleArea() {
         assertEquals(314.1592653589793, mathUtils.computeCircleArea(10.0))
     }
 }
